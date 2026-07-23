@@ -38,7 +38,7 @@ LifeFlow is a web-based blood donation management system designed to connect blo
 1.  **Prerequisites**: Ensure you have a local server environment like XAMPP, WAMP, or MAMP installed with PHP and MySQL running.
 2.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/LifeFlow.git
+    git clone https://github.com/Shaik-Mahmud/LifeFlow.git
     ```
 3.  **Move to Server Directory**: Place the project folder in your local server's document root (e.g., `htdocs` for XAMPP).
 4.  **Database Configuration**:
@@ -46,7 +46,7 @@ LifeFlow is a web-based blood donation management system designed to connect blo
     *   Create a new database named `lifeflow_db`.
     *   Import the provided `database.sql` file into the new database.
 5.  **Run the Project**:
-    *   Open your web browser and navigate to `http://localhost/DBMS_project/`.
+    *   Open your web browser and navigate to `http://localhost/LifeFlow/`.
 
 ## 🔐 Default Credentials
 
