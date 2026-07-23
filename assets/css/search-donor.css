@@ -1,0 +1,323 @@
+.donor-search-page {
+    background: #fffafa;
+}
+
+.donor-search-nav {
+    position: relative;
+    border-bottom: 1px solid var(--line);
+    background: rgba(255, 255, 255, .96);
+}
+
+.donor-search-nav .btn {
+    padding: .48rem .8rem;
+    font-size: .83rem;
+}
+
+.search-hero {
+    padding: 80px 0 115px;
+    background: linear-gradient(135deg, #fff 0%, #fff4f5 58%, #ffe5e8 100%);
+}
+
+.search-hero h1 {
+    max-width: 750px;
+    margin: .55rem auto .9rem;
+    font-size: clamp(2.35rem, 5vw, 4rem);
+    font-weight: 850;
+    line-height: 1.08;
+    letter-spacing: -.055em;
+}
+
+.search-hero p {
+    max-width: 610px;
+    margin: 0 auto;
+    color: var(--muted);
+}
+
+.search-content {
+    padding: 0 0 85px;
+}
+
+.search-box {
+    position: relative;
+    z-index: 1;
+    padding: 27px;
+    margin-top: -51px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: #fff;
+    box-shadow: var(--shadow);
+}
+
+.search-box .form-label {
+    color: var(--ink);
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+.search-box .form-select,
+.search-box .form-control,
+.search-button {
+    min-height: 50px;
+    box-shadow: none;
+}
+
+.search-box .form-select,
+.search-box .form-control {
+    border-color: #e3e6e8;
+}
+
+.search-box .form-select:focus,
+.search-box .form-control:focus {
+    border-color: #f2aeb5;
+    box-shadow: 0 0 0 .2rem rgba(220, 53, 69, .1);
+}
+
+.search-input-wrap {
+    position: relative;
+}
+
+.search-input-wrap i {
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    left: 16px;
+    color: var(--primary);
+}
+
+.search-input-wrap .form-control {
+    padding-left: 42px;
+}
+
+.results-header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 68px 0 28px;
+}
+
+.results-header h2 {
+    margin: .35rem 0 0;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.results-header > p {
+    margin: 0;
+    color: var(--muted);
+    font-size: .88rem;
+}
+
+.donor-card {
+    height: 100%;
+    padding: 24px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: #fff;
+    transition: .22s;
+}
+
+.donor-card:hover {
+    transform: translateY(-4px);
+    border-color: #f5c6cb;
+    box-shadow: var(--shadow);
+}
+
+.donor-card-top {
+    display: grid;
+    grid-template-columns: 48px 1fr auto;
+    gap: 12px;
+    align-items: center;
+}
+
+.donor-avatar {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    place-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.avatar-red { background: #dc3545; }
+.avatar-pink { background: #dc6c81; }
+.avatar-dark { background: #3d4650; }
+.avatar-gold { background: #bc7a26; }
+.avatar-blue { background: #397695; }
+.avatar-purple { background: #7955a2; }
+
+.donor-card h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.donor-card-top p {
+    margin: 2px 0 0;
+    color: var(--muted);
+    font-size: .75rem;
+}
+
+.donor-card-top p i {
+    color: var(--primary);
+}
+
+.availability-status {
+    color: #27814b;
+    font-size: .68rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.availability-status i {
+    font-size: .5rem;
+}
+
+.donor-details {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 21px 0;
+    margin: 19px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    color: var(--muted);
+    font-size: .75rem;
+}
+
+.donor-details i {
+    color: var(--primary);
+}
+
+.blood-badge {
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: var(--primary);
+    background: var(--soft);
+    font-weight: 800;
+}
+
+.contact-donor {
+    padding: .6rem 1rem;
+    font-size: .85rem;
+}
+
+.empty-results {
+    padding: 55px 20px;
+    text-align: center;
+}
+
+.empty-results > i {
+    display: grid;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 17px;
+    place-items: center;
+    border-radius: 50%;
+    color: var(--primary);
+    background: var(--soft);
+    font-size: 1.3rem;
+}
+
+.empty-results h3 {
+    font-size: 1.15rem;
+    font-weight: 800;
+}
+
+.empty-results p {
+    color: var(--muted);
+}
+
+.search-help {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding: 22px 25px;
+    margin-top: 54px;
+    border-radius: var(--radius);
+    background: var(--ink);
+    color: #fff;
+}
+
+.search-help-icon {
+    display: grid;
+    width: 43px;
+    height: 43px;
+    flex: 0 0 43px;
+    place-items: center;
+    border-radius: 12px;
+    color: var(--primary);
+    background: #ffe6e9;
+}
+
+.search-help p {
+    flex: 1;
+    margin: 0;
+    color: #c6ccd2;
+    font-size: .88rem;
+}
+
+.search-help p strong {
+    color: #fff;
+}
+
+.search-footer {
+    padding: 24px 0;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    background: #fff;
+    font-size: .84rem;
+}
+
+.search-footer a {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .search-hero {
+        padding-bottom: 90px;
+    }
+
+    .results-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 50px;
+    }
+
+    .search-help {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .search-help .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .search-hero {
+        padding: 60px 0 80px;
+    }
+
+    .search-content {
+        padding-bottom: 60px;
+    }
+
+    .search-box {
+        padding: 20px;
+        margin-top: -39px;
+    }
+
+    .donor-card-top {
+        grid-template-columns: 48px 1fr;
+    }
+
+    .availability-status {
+        grid-column: 2;
+    }
+}
